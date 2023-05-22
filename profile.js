@@ -47,8 +47,14 @@ export const experiences = [
   {
     title: "Habilidades blandas",
     description:
-      " Facilidad de comunicacion, trabajo en equipo.  ",
-    from: 2023,
+      " Facilidad de comunicacion, trabajo en equipo, etica, positivismo..  ",
+    to: 2023,
+  },
+  {
+    title: "Contacteme",
+    description:
+      " Correo: carlos.salas.guido@est.una.ac.cr ",
+    to: 2023,
   },
 ];
 
