@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link legacyBehavior href="/">
-          <a className="navbar-brand">Simple Portfolio</a>
+          <a className="navbar-brand">Mi portalofolio</a>
         </Link>
         <button
           className="navbar-toggler"
@@ -23,7 +23,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link legacyBehavior href="/blog">
                 <a className="nav-link active" aria-current="page">
-                  Blog
+                  Tutoriales
                 </a>
               </Link>
             </li>
@@ -31,6 +31,13 @@ const Navbar = () => {
               <Link legacyBehavior href="/github">
                 <a className="nav-link">
                  Github 
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link legacyBehavior href="https://www.linkedin.com/in/daniel-salas-guido-b3bab8277/">
+                <a className="nav-link">
+                 Linkedin 
                 </a>
               </Link>
             </li>

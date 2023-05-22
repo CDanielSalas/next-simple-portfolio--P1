@@ -11,20 +11,17 @@ const Index = () => (
       <div className="col-md-12">
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
-            <div className="col-md-4">
-              <img src="/ryan-ray-profile2.jpeg" alt="" className="img-fluid" />
+            <div className="col-md-3">
+              <img src="/yo.jpeg"  width = "500" height="100" alt="" className="img-fluid" />
             </div>
             <div className="col-md-8">
               <h1>Daniel Salas</h1>
               <h3>Full Stack Developer</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae atque ullam perferendis harum, nisi porro voluptate,
-                iste consequuntur enim reprehenderit architecto consectetur cum?
-                Totam ad molestias natus illum illo officia.
+                Mi Nombre es Carlos Daniel Salas estudiante de ingenieria en sistemas de la informacion, actualmente soy estudiante de la Universidad Nacional de Costa Rica, me desarrollo como Full Stack, conocimineto en lenguajes como Phyton, C++, Java, JavaScript, Typescript y entre otros
               </p>
               <Link legacyBehavior href="/hireme">
-                <a className="btn btn-outline-light">Hire Me</a>
+                <a className="btn btn-outline-light">Contratame</a>
               </Link>
             </div>
           </div>
@@ -38,7 +35,7 @@ const Index = () => (
       <div className="col-md-4 py-2">
         <div className="card bg-light animate__animated animate__fadeInLeft">
           <div className="card-body">
-            <h1>Skills</h1>
+            <h1>Habilidades</h1>
 
             {/* Skill Progress  */}
             {skills.map(({ skill, percentage }, i) => (
@@ -64,27 +61,24 @@ const Index = () => (
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Experience</h1>
+            <h1>Educacion</h1>
 
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title, from, to }, index) => (
+              {experiences.map(({ title, from, to, description }, index) => (
                 <li key={index}>
                   <h3>{title}</h3>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint excepturi ea explicabo. Illum suscipit illo, porro
-                    quisquam voluptatem officiis fugiat vel animi aliquam
-                    inventore rem. Quo laudantium temporibus cupiditate. Aut?
+                   {description}
                   </p>
                 </li>
               ))}
             </ul>
             <Link legacyBehavior href="/hireme">
-              <a className="btn btn-light">Know More</a>
+              <a className="btn btn-light">Conoce más</a>
             </Link>
           </div>
         </div>
@@ -98,7 +92,7 @@ const Index = () => (
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
-                <h1 className="text-center text-light">Portfolio</h1>
+                <h1 className="text-center text-light">Conocimiento</h1>
               </div>
               {projects.map(({ name, description, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
@@ -113,7 +107,7 @@ const Index = () => (
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <a href="#!">más</a>
                     </div>
                   </div>
                 </div>
@@ -122,7 +116,7 @@ const Index = () => (
               <div className="col-md-12 mt-4">
                 <div className="text-center">
                   <Link legacyBehavior href="/portfolio">
-                    <a className="btn btn-outline-light">More Projects</a>
+                    <a className="btn btn-outline-light">Mas proyectos</a>
                   </Link>
                 </div>
               </div>
