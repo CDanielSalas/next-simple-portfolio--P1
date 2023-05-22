@@ -95,22 +95,17 @@ export const posts = [
   {
     title: "POO",
     content:
-      "Aprende programacion orientada a Objetos",
-    imageURL:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faie.edu.au%2Fwp-content%2Fuploads%2F2018%2F03%2Fgame-programming-03.jpg",
+      "Aprende programacion orientada a Objetos"
   },
   {
     title: "Tutorial HTML",
     content:
-      "Comprende los conociminetos basicos sobre HTML",
-    imageURL:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faie.edu.au%2Fwp-content%2Fuploads%2F2018%2F03%2Fgame-programming-03.jpg",
+      "Comprende los conociminetos basicos sobre HTML"
+
   },
   {
     title: "API pokemon",
     content:
-      "Utiliza el api de pokemon para un poder ver la informacion sobre cada pokemon",
-    imageURL:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faie.edu.au%2Fwp-content%2Fuploads%2F2018%2F03%2Fgame-programming-03.jpg",
+      "Utiliza el api de pokemon para un poder ver la informacion sobre cada pokemon"
   },
 ];
